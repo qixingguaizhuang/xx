@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A83-qV-VRO">
+                                <rect key="frame" x="20" y="71" width="340" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="获取包 APP 包文件夹路径"/>
+                                <connections>
+                                    <action selector="findAPPPath:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lhr-Lz-QED"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="============沙盒部分============" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wmO-hr-DH7">
+                                <rect key="frame" x="25" y="115" width="324" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="==========APP包部分==========" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NKz-QH-lVe">
+                                <rect key="frame" x="29" y="36" width="295" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lSv-Hu-n7b">
+                                <rect key="frame" x="8" y="192" width="348" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="利用 API 快速获取沙盒中的个文件夹路径"/>
+                                <connections>
+                                    <action selector="findPathForEveryOne:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Llx-FM-YiL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cqo-gF-sjv">
+                                <rect key="frame" x="99" y="139" width="177" height="45"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="获取沙盒路径"/>
+                                <connections>
+                                    <action selector="findsandBoxPath:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8G3-Z6-tYl"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="============简单对象读写============" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qTh-EW-Ulv">
+                                <rect key="frame" x="11" y="238" width="358" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MyN-A9-rsN">
+                                <rect key="frame" x="17" y="267" width="158" height="28"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="NSString 对象写入本地"/>
+                                <connections>
+                                    <action selector="handleNSStringWriteToDisk:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2mc-a6-40y"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5b4-76-NZT">
+                                <rect key="frame" x="200" y="267" width="141" height="30"/>
+                                <state key="normal" title="从本地读取 NSString"/>
+                                <connections>
+                                    <action selector="handleNSarrayReadFromDisk:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ncx-ss-QgZ"/>
+                                    <action selector="handlleNSStringReadFromDisk:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vdr-Dd-YIJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="33U-gf-cPW">
+                                <rect key="frame" x="17" y="305" width="151" height="30"/>
+                                <state key="normal" title="NSArray 对象写入本地"/>
+                                <connections>
+                                    <action selector="handleArrayWriteTODisk:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0I6-bj-LEP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6A1-oc-zo8">
+                                <rect key="frame" x="200" y="305" width="136" height="30"/>
+                                <state key="normal" title="从本地读取 NSArray"/>
+                                <connections>
+                                    <action selector="handleNSArrayReadFromDisk:" destination="BYZ-38-t0r" eventType="touchUpInside" id="chp-Sq-n8h"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lAF-Ma-H6i">
+                                <rect key="frame" x="2" y="343" width="184" height="30"/>
+                                <state key="normal" title="NSDictionary 对象写入本地"/>
+                                <connections>
+                                    <action selector="handleDicWriteTodisk:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zdo-yc-AjW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h4G-n8-5ke">
+                                <rect key="frame" x="194" y="343" width="169" height="30"/>
+                                <state key="normal" title="从本地读取 NSDictionary"/>
+                                <connections>
+                                    <action selector="handleDicreadFromDisk:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OJ7-d3-sP2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yvm-tC-RwK">
+                                <rect key="frame" x="17" y="381" width="147" height="30"/>
+                                <state key="normal" title="NSData 对象写入本地"/>
+                                <connections>
+                                    <action selector="handleDataWriteToDisk:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sIv-as-BNr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3nT-tY-98t">
+                                <rect key="frame" x="205" y="374" width="136" height="30"/>
+                                <state key="normal" title="从本地读取 NSData "/>
+                                <connections>
+                                    <action selector="handleDataFromDisk:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qqq-sN-csc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dOq-8b-z5n">
+                                <rect key="frame" x="20" y="458" width="137" height="30"/>
+                                <state key="normal" title="model 对象写入本地"/>
+                                <connections>
+                                    <action selector="handleModelWriteTodisk:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5cP-Yi-HM8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CCp-47-Ru3">
+                                <rect key="frame" x="194" y="458" width="156" height="30"/>
+                                <state key="normal" title="从本地读取 model 对象"/>
+                                <connections>
+                                    <action selector="handleModleReadFromDisk:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I0g-Gf-JJ9"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="============复杂对象读写============" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VPi-Ah-lyA">
+                                <rect key="frame" x="11" y="429" width="358" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="339.5" y="399.5"/>
+        </scene>
+    </scenes>
+</document>

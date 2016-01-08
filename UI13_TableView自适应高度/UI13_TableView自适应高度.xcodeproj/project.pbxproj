@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		495073331C3277EF00571ADA /* SecondController.m in Sources */ = {isa = PBXBuildFile; fileRef = 495073321C3277EF00571ADA /* SecondController.m */; };
+		495073371C32783A00571ADA /* cellForimage.m in Sources */ = {isa = PBXBuildFile; fileRef = 495073361C32783A00571ADA /* cellForimage.m */; };
+		4950733B1C32793100571ADA /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4950733A1C32793100571ADA /* 2.jpg */; };
+		4950733D1C32793900571ADA /* b3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4950733C1C32793900571ADA /* b3.jpg */; };
+		4950733F1C32796000571ADA /* b1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4950733E1C32796000571ADA /* b1.jpg */; };
+		49A96EB31C32211400478DC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A96EB21C32211400478DC4 /* main.m */; };
+		49A96EB61C32211400478DC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A96EB51C32211400478DC4 /* AppDelegate.m */; };
+		49A96EB91C32211400478DC4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A96EB81C32211400478DC4 /* ViewController.m */; };
+		49A96EBC1C32211400478DC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49A96EBA1C32211400478DC4 /* Main.storyboard */; };
+		49A96EBE1C32211400478DC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49A96EBD1C32211400478DC4 /* Assets.xcassets */; };
+		49A96EC11C32211400478DC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49A96EBF1C32211400478DC4 /* LaunchScreen.storyboard */; };
+		49A96ECC1C32211500478DC4 /* UI13_TableView_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A96ECB1C32211500478DC4 /* UI13_TableView_____Tests.m */; };
+		49A96ED71C32211500478DC4 /* UI13_TableView_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A96ED61C32211500478DC4 /* UI13_TableView_____UITests.m */; };
+		49A96EEC1C3227EB00478DC4 /* ModelOFNew.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A96EEB1C3227EB00478DC4 /* ModelOFNew.m */; };
+		49A96EF01C32281900478DC4 /* CellOFNews.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A96EEF1C32281900478DC4 /* CellOFNews.m */; };
+		49A96EF51C322D0300478DC4 /* R.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49A96EF41C322D0300478DC4 /* R.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49A96EC81C32211500478DC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49A96EA61C32211400478DC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49A96EAD1C32211400478DC4;
+			remoteInfo = "UI13_TableView自适应高度";
+		};
+		49A96ED31C32211500478DC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49A96EA61C32211400478DC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49A96EAD1C32211400478DC4;
+			remoteInfo = "UI13_TableView自适应高度";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4950732F1C32774E00571ADA /* UI13_TableView自适应高度.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "UI13_TableView自适应高度.xcodeproj"; path = "/Users/dllo/Downloads/UI13_TableView自适应高度/UI13_TableView自适应高度.xcodeproj"; sourceTree = "<absolute>"; };
+		495073311C3277EF00571ADA /* SecondController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondController.h; path = ../SecondController.h; sourceTree = "<group>"; };
+		495073321C3277EF00571ADA /* SecondController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondController.m; path = ../SecondController.m; sourceTree = "<group>"; };
+		495073351C32783A00571ADA /* cellForimage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellForimage.h; sourceTree = SOURCE_ROOT; };
+		495073361C32783A00571ADA /* cellForimage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellForimage.m; sourceTree = SOURCE_ROOT; };
+		4950733A1C32793100571ADA /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		4950733C1C32793900571ADA /* b3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b3.jpg; sourceTree = "<group>"; };
+		4950733E1C32796000571ADA /* b1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b1.jpg; sourceTree = "<group>"; };
+		49A96EAE1C32211400478DC4 /* UI13_TableView自适应高度.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI13_TableView自适应高度.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49A96EB21C32211400478DC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49A96EB41C32211400478DC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		49A96EB51C32211400478DC4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		49A96EB71C32211400478DC4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		49A96EB81C32211400478DC4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		49A96EBB1C32211400478DC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49A96EBD1C32211400478DC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49A96EC01C32211400478DC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49A96EC21C32211400478DC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49A96EC71C32211500478DC4 /* UI13_TableView自适应高度Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI13_TableView自适应高度Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49A96ECB1C32211500478DC4 /* UI13_TableView_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UI13_TableView_____Tests.m"; sourceTree = "<group>"; };
+		49A96ECD1C32211500478DC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49A96ED21C32211500478DC4 /* UI13_TableView自适应高度UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI13_TableView自适应高度UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49A96ED61C32211500478DC4 /* UI13_TableView_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UI13_TableView_____UITests.m"; sourceTree = "<group>"; };
+		49A96ED81C32211500478DC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49A96EEA1C3227EB00478DC4 /* ModelOFNew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelOFNew.h; sourceTree = "<group>"; };
+		49A96EEB1C3227EB00478DC4 /* ModelOFNew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelOFNew.m; sourceTree = "<group>"; };
+		49A96EEE1C32281900478DC4 /* CellOFNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellOFNews.h; sourceTree = "<group>"; };
+		49A96EEF1C32281900478DC4 /* CellOFNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellOFNews.m; sourceTree = "<group>"; };
+		49A96EF41C322D0300478DC4 /* R.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = R.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49A96EAB1C32211400478DC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A96EC41C32211500478DC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A96ECF1C32211500478DC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		495073301C32774E00571ADA /* pag.1 */ = {
+			isa = PBXGroup;
+			children = (
+				4950732F1C32774E00571ADA /* UI13_TableView自适应高度.xcodeproj */,
+				49A96EB01C32211400478DC4 /* UI13_TableView自适应高度 */,
+			);
+			name = pag.1;
+			path = "UI13_TableView自适应高度.xcodeproj";
+			sourceTree = "<group>";
+		};
+		495073341C32780500571ADA /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				495073311C3277EF00571ADA /* SecondController.h */,
+				495073321C3277EF00571ADA /* SecondController.m */,
+				495073381C32783F00571ADA /* view */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		495073381C32783F00571ADA /* view */ = {
+			isa = PBXGroup;
+			children = (
+				495073351C32783A00571ADA /* cellForimage.h */,
+				495073361C32783A00571ADA /* cellForimage.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		495073391C32784E00571ADA /* pag.2 */ = {
+			isa = PBXGroup;
+			children = (
+				495073341C32780500571ADA /* controller */,
+			);
+			name = pag.2;
+			path = "UI13_TableView自适应高度.xcodeproj";
+			sourceTree = SOURCE_ROOT;
+		};
+		495073401C32CFB500571ADA /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49A96EA51C32211400478DC4 = {
+			isa = PBXGroup;
+			children = (
+				4950733A1C32793100571ADA /* 2.jpg */,
+				4950733E1C32796000571ADA /* b1.jpg */,
+				4950733C1C32793900571ADA /* b3.jpg */,
+				49A96EF41C322D0300478DC4 /* R.txt */,
+				495073301C32774E00571ADA /* pag.1 */,
+				49A96ECA1C32211500478DC4 /* UI13_TableView自适应高度Tests */,
+				49A96ED51C32211500478DC4 /* UI13_TableView自适应高度UITests */,
+				49A96EAF1C32211400478DC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49A96EAF1C32211400478DC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49A96EAE1C32211400478DC4 /* UI13_TableView自适应高度.app */,
+				49A96EC71C32211500478DC4 /* UI13_TableView自适应高度Tests.xctest */,
+				49A96ED21C32211500478DC4 /* UI13_TableView自适应高度UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49A96EB01C32211400478DC4 /* UI13_TableView自适应高度 */ = {
+			isa = PBXGroup;
+			children = (
+				49A96EB41C32211400478DC4 /* AppDelegate.h */,
+				49A96EB51C32211400478DC4 /* AppDelegate.m */,
+				49A96EF11C32282300478DC4 /* View */,
+				49A96EED1C3227F600478DC4 /* Model */,
+				49A96EE91C3227B200478DC4 /* Controller */,
+				49A96EE81C3227A500478DC4 /* res */,
+				49A96EBA1C32211400478DC4 /* Main.storyboard */,
+				49A96EBD1C32211400478DC4 /* Assets.xcassets */,
+				49A96EBF1C32211400478DC4 /* LaunchScreen.storyboard */,
+				49A96EC21C32211400478DC4 /* Info.plist */,
+				49A96EB11C32211400478DC4 /* Supporting Files */,
+			);
+			name = "UI13_TableView自适应高度";
+			path = "../UI13_TableView自适应高度";
+			sourceTree = "<group>";
+		};
+		49A96EB11C32211400478DC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49A96EB21C32211400478DC4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49A96ECA1C32211500478DC4 /* UI13_TableView自适应高度Tests */ = {
+			isa = PBXGroup;
+			children = (
+				49A96ECB1C32211500478DC4 /* UI13_TableView_____Tests.m */,
+				49A96ECD1C32211500478DC4 /* Info.plist */,
+			);
+			path = "UI13_TableView自适应高度Tests";
+			sourceTree = "<group>";
+		};
+		49A96ED51C32211500478DC4 /* UI13_TableView自适应高度UITests */ = {
+			isa = PBXGroup;
+			children = (
+				49A96ED61C32211500478DC4 /* UI13_TableView_____UITests.m */,
+				49A96ED81C32211500478DC4 /* Info.plist */,
+			);
+			path = "UI13_TableView自适应高度UITests";
+			sourceTree = "<group>";
+		};
+		49A96EE81C3227A500478DC4 /* res */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = res;
+			sourceTree = "<group>";
+		};
+		49A96EE91C3227B200478DC4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				49A96EB71C32211400478DC4 /* ViewController.h */,
+				49A96EB81C32211400478DC4 /* ViewController.m */,
+				495073391C32784E00571ADA /* pag.2 */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		49A96EED1C3227F600478DC4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				49A96EEA1C3227EB00478DC4 /* ModelOFNew.h */,
+				49A96EEB1C3227EB00478DC4 /* ModelOFNew.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		49A96EF11C32282300478DC4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				49A96EEE1C32281900478DC4 /* CellOFNews.h */,
+				49A96EEF1C32281900478DC4 /* CellOFNews.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49A96EAD1C32211400478DC4 /* UI13_TableView自适应高度 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49A96EDB1C32211500478DC4 /* Build configuration list for PBXNativeTarget "UI13_TableView自适应高度" */;
+			buildPhases = (
+				49A96EAA1C32211400478DC4 /* Sources */,
+				49A96EAB1C32211400478DC4 /* Frameworks */,
+				49A96EAC1C32211400478DC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UI13_TableView自适应高度";
+			productName = "UI13_TableView自适应高度";
+			productReference = 49A96EAE1C32211400478DC4 /* UI13_TableView自适应高度.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49A96EC61C32211500478DC4 /* UI13_TableView自适应高度Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49A96EDE1C32211500478DC4 /* Build configuration list for PBXNativeTarget "UI13_TableView自适应高度Tests" */;
+			buildPhases = (
+				49A96EC31C32211500478DC4 /* Sources */,
+				49A96EC41C32211500478DC4 /* Frameworks */,
+				49A96EC51C32211500478DC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49A96EC91C32211500478DC4 /* PBXTargetDependency */,
+			);
+			name = "UI13_TableView自适应高度Tests";
+			productName = "UI13_TableView自适应高度Tests";
+			productReference = 49A96EC71C32211500478DC4 /* UI13_TableView自适应高度Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49A96ED11C32211500478DC4 /* UI13_TableView自适应高度UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49A96EE11C32211500478DC4 /* Build configuration list for PBXNativeTarget "UI13_TableView自适应高度UITests" */;
+			buildPhases = (
+				49A96ECE1C32211500478DC4 /* Sources */,
+				49A96ECF1C32211500478DC4 /* Frameworks */,
+				49A96ED01C32211500478DC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49A96ED41C32211500478DC4 /* PBXTargetDependency */,
+			);
+			name = "UI13_TableView自适应高度UITests";
+			productName = "UI13_TableView自适应高度UITests";
+			productReference = 49A96ED21C32211500478DC4 /* UI13_TableView自适应高度UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49A96EA61C32211400478DC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = GH;
+				TargetAttributes = {
+					49A96EAD1C32211400478DC4 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					49A96EC61C32211500478DC4 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 49A96EAD1C32211400478DC4;
+					};
+					49A96ED11C32211500478DC4 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 49A96EAD1C32211400478DC4;
+					};
+				};
+			};
+			buildConfigurationList = 49A96EA91C32211400478DC4 /* Build configuration list for PBXProject "UI13_TableView自适应高度" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49A96EA51C32211400478DC4;
+			productRefGroup = 49A96EAF1C32211400478DC4 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 495073401C32CFB500571ADA /* Products */;
+					ProjectRef = 4950732F1C32774E00571ADA /* UI13_TableView自适应高度.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				49A96EAD1C32211400478DC4 /* UI13_TableView自适应高度 */,
+				49A96EC61C32211500478DC4 /* UI13_TableView自适应高度Tests */,
+				49A96ED11C32211500478DC4 /* UI13_TableView自适应高度UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49A96EAC1C32211400478DC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A96EF51C322D0300478DC4 /* R.txt in Resources */,
+				49A96EC11C32211400478DC4 /* LaunchScreen.storyboard in Resources */,
+				4950733D1C32793900571ADA /* b3.jpg in Resources */,
+				4950733B1C32793100571ADA /* 2.jpg in Resources */,
+				49A96EBE1C32211400478DC4 /* Assets.xcassets in Resources */,
+				4950733F1C32796000571ADA /* b1.jpg in Resources */,
+				49A96EBC1C32211400478DC4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A96EC51C32211500478DC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A96ED01C32211500478DC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49A96EAA1C32211400478DC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495073371C32783A00571ADA /* cellForimage.m in Sources */,
+				49A96EB91C32211400478DC4 /* ViewController.m in Sources */,
+				49A96EF01C32281900478DC4 /* CellOFNews.m in Sources */,
+				49A96EB61C32211400478DC4 /* AppDelegate.m in Sources */,
+				495073331C3277EF00571ADA /* SecondController.m in Sources */,
+				49A96EB31C32211400478DC4 /* main.m in Sources */,
+				49A96EEC1C3227EB00478DC4 /* ModelOFNew.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A96EC31C32211500478DC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A96ECC1C32211500478DC4 /* UI13_TableView_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A96ECE1C32211500478DC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A96ED71C32211500478DC4 /* UI13_TableView_____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49A96EC91C32211500478DC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49A96EAD1C32211400478DC4 /* UI13_TableView自适应高度 */;
+			targetProxy = 49A96EC81C32211500478DC4 /* PBXContainerItemProxy */;
+		};
+		49A96ED41C32211500478DC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49A96EAD1C32211400478DC4 /* UI13_TableView自适应高度 */;
+			targetProxy = 49A96ED31C32211500478DC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49A96EBA1C32211400478DC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49A96EBB1C32211400478DC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49A96EBF1C32211400478DC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49A96EC01C32211400478DC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49A96ED91C32211500478DC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		49A96EDA1C32211500478DC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49A96EDC1C32211500478DC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = "UI13_TableView自适应高度/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou3g.UI13-TableView-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		49A96EDD1C32211500478DC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = "UI13_TableView自适应高度/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou3g.UI13-TableView-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		49A96EDF1C32211500478DC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UI13_TableView自适应高度Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou3g.UI13-TableView-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UI13_TableView自适应高度.app/UI13_TableView自适应高度";
+			};
+			name = Debug;
+		};
+		49A96EE01C32211500478DC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UI13_TableView自适应高度Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou3g.UI13-TableView-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UI13_TableView自适应高度.app/UI13_TableView自适应高度";
+			};
+			name = Release;
+		};
+		49A96EE21C32211500478DC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UI13_TableView自适应高度UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou3g.UI13-TableView-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UI13_TableView自适应高度";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		49A96EE31C32211500478DC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UI13_TableView自适应高度UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou3g.UI13-TableView-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UI13_TableView自适应高度";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49A96EA91C32211400478DC4 /* Build configuration list for PBXProject "UI13_TableView自适应高度" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49A96ED91C32211500478DC4 /* Debug */,
+				49A96EDA1C32211500478DC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49A96EDB1C32211500478DC4 /* Build configuration list for PBXNativeTarget "UI13_TableView自适应高度" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49A96EDC1C32211500478DC4 /* Debug */,
+				49A96EDD1C32211500478DC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49A96EDE1C32211500478DC4 /* Build configuration list for PBXNativeTarget "UI13_TableView自适应高度Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49A96EDF1C32211500478DC4 /* Debug */,
+				49A96EE01C32211500478DC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49A96EE11C32211500478DC4 /* Build configuration list for PBXNativeTarget "UI13_TableView自适应高度UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49A96EE21C32211500478DC4 /* Debug */,
+				49A96EE31C32211500478DC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49A96EA61C32211400478DC4 /* Project object */;
+}
